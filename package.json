@@ -13,6 +13,15 @@
     "type": "git",
     "url": "git+https://github.com/crewmeister/eslint-config-crewmeister.git"
   },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "crewmeister",
+    "javascript",
+    "styleguide",
+    "coding style"
+  ],
   "author": "Wolfram Kriesing <wolfram@crewmeister.com>",
   "license": "MIT",
   "bugs": {
