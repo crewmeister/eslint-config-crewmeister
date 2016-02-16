@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "The eslint config we use at crewmeister.",
   "main": "index.js",
+  "bin": {
+    "eslint-crewmeister": "./bin/eslint-crewmeister.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
