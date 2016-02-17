@@ -41,3 +41,19 @@ npm link # creates a local sym link that refers to this repo here
 > cd crewmeister/repos/<what-you-are-working-on>
 > npm link eslint-config-crewmeister # use the sym link created above
 ```
+
+# The Coding Style
+
+By default our coding style is derived from the [airbnb style].
+All modifications/addons are added here.
+
+## Table of Contents
+
+  1. [Globals](#globals)
+
+## Globals
+
+- [1.1](#1.1) <a name='1.1'></a> **Globals**: For the tests we provide `it` and `describe` as globals
+
+
+[airbnb style]: https://github.com/airbnb/javascript#table-of-contents
