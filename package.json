@@ -7,7 +7,8 @@
     "eslint-crewmeister": "./bin/eslint-crewmeister.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "node ./bin/eslint-crewmeister.js index.js",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
