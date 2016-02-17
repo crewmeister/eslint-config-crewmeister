@@ -7,7 +7,7 @@ this repo defines the rules executed by eslint.
 # Usage
 
 In any repo (that should be an npm package) install it like this
-```
+```bash
 npm install eslint-config-crewmeister --save-dev
 ```
 In order to use it, you can call `eslint-crewmeister` from within the project.
