@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var cli = require('../node_modules/eslint/lib/cli');
+var cli = require('eslint/lib/cli');
 
 var path = require('path');
 var eslintConfig = path.join(__dirname, '..', 'index.js');
