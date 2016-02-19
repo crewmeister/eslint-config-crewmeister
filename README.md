@@ -42,6 +42,11 @@ npm link # creates a local sym link that refers to this repo here
 > npm link eslint-config-crewmeister # use the sym link created above
 ```
 
+# Release
+
+1) update the [CHANGELOG.md]
+1) use `npm version major` to go up to the next version, always going up to next major for now
+
 # The Coding Style
 
 By default our coding style is derived from the [airbnb style].
