@@ -9,4 +9,7 @@ module.exports = {
     describe: true,
     it: true,
   },
+  rules: {
+    'arrow-body-style': [0]
+  }
 };
