@@ -60,5 +60,64 @@ All modifications/addons are added here.
 
 - [1.1](#1.1) <a name='1.1'></a> **Globals**: For the tests we provide `it` and `describe` as globals
 
+## Formatting
+
+  <a name="formatting-???"></a><a name="2.1"></a>
+  - [2.1](#formatting-???) **???** do this that
+
+    ```javascript
+    // short one line arrow functions
+    // DON'T
+    const func = () =>
+      x + y;
+    
+    // DO
+    const func = () => x + y;
+    
+    // long one line arrow functions, function body shall be on the next line, including ";"
+    // DO
+    const func = () =>
+      oneLongVariable + anotherLongVariable - orSomethingThatMakesThisQuiteLong;
+    
+    // nested calls
+    // DO
+    const func = () =>
+      house(thatHas(threeNeighbors())); // if line doesnt get tooo long
+      
+    const func = () =>
+      house(
+        thatHas(
+          threeNeighbors())); // can also be written like this, for clarity
+      
+    // `promiseThat` and alikes are an exception  
+    it('test description', () => promiseThat(
+      something(), fulfills()));  
+      
+    it('test description', () => promiseThat(
+      something(
+        needsAParameter(
+          whichNeedsAnotherOne())));  
+          
+    // logical blocks are separated by new-lines, functions/tests can be separated as above, 
+    
+    const SECOND = 1000;
+    const MINUTE = 60 * SECOND;
+    const HOUR = 60 * MINUTE;
+    const DAY = 24 * HOUR;
+    
+    const house = new HouseMusic();
+    // constants/variables that belong together as a logical block may be written without new-lines in between
+    
+    import { promiseThat } from 'hamjest';
+    import {
+      promiseThat,
+      assertThat,
+    } from 'hamjest';
+    ```
+
+    In doubt, in general inside one file, the coding style shall be kept!
+    Which means, what is a logical block, where new-lines are added,
+    this is determined by the existing file, which means, don't come in and
+    change the complete file first.
 
 [airbnb style]: https://github.com/airbnb/javascript#table-of-contents
