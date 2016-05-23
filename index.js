@@ -10,6 +10,7 @@ module.exports = {
     it: true,
   },
   rules: {
-    'arrow-body-style': [0]
-  }
+    'arrow-body-style': [0],
+    'react/jsx-no-bind': [0],
+  },
 };
