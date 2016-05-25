@@ -12,5 +12,6 @@ module.exports = {
   rules: {
     'arrow-body-style': [0],
     'react/jsx-no-bind': [0],
+    'object-shorthand': [0],
   },
 };
