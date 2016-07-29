@@ -1,3 +1,12 @@
+# 2.1.0 (2016-07-29)
+
+- Turn the `arrow-body-style` rule off, so we are completely free in how we use it.
+- Don't complain about `xit` and `xdescribe` anymore.
+- Turn off `react/jsx-no-bind` rule.
+- Turn off `object-shorthand`, since we want to allow code like `{ x: x }` which makes refactoring easier.
+- Upgrade eslint to v3.
+- Add some examples in `example.js`.
+
 # 2.0.0 (2016-02-19)
 
 - Allow some more test functions, such as `beforeEach, before, ...` 8ef4d85fd4fc
