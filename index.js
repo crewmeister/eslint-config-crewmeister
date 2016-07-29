@@ -8,6 +8,8 @@ module.exports = {
     afterEach: true,
     describe: true,
     it: true,
+    xit: true,
+    xdescribe: true,
   },
   rules: {
     'arrow-body-style': ['off'],
