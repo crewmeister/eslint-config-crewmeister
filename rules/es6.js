@@ -22,9 +22,9 @@ module.exports = {
     'jsx': true
   },
   'rules': {
-    // enforces no braces where they can be omitted
+    // omit brackets when it supports readability
     // http://eslint.org/docs/rules/arrow-body-style
-    'arrow-body-style': [2, 'as-needed'],
+    'arrow-body-style': 0,
     // require parens in arrow function arguments
     'arrow-parens': 0,
     // require space before/after arrow function's arrow
@@ -44,7 +44,7 @@ module.exports = {
     'no-var': 2,
     // require method and property shorthand syntax for object literals
     // https://github.com/eslint/eslint/blob/master/docs/rules/object-shorthand.md
-    'object-shorthand': [2, 'always'],
+    'object-shorthand': 0,
     // suggest using arrow functions as callbacks
     'prefer-arrow-callback': 2,
     // suggest using of const declaration for variables that are never modified after declared
