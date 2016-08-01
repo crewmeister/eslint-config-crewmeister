@@ -1,8 +1,14 @@
 module.exports = {
   extends: [
-    './rules/base',
-    './rules/strict',
+    './rules/best-practices',
+    './rules/errors',
+    './rules/es6',
+    './rules/legacy',
+    './rules/node',
     './rules/react',
+    './rules/strict',
+    './rules/style',
+    './rules/variables',
   ].map(require.resolve),
   parser: 'babel-eslint',
   globals: {
