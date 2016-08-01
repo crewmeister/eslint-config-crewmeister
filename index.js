@@ -16,6 +16,7 @@ module.exports = {
     'object-shorthand': ['off'],
     'react/jsx-no-bind': ['off'],
     'react/jsx-curly-spacing': [2, 'always'],
-    'react/no-multi-comp': ['off']
+    'react/no-multi-comp': ['off'],
+    'no-underscore-dangle': ['off']
   },
 };
