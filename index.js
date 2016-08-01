@@ -13,8 +13,9 @@ module.exports = {
   },
   rules: {
     'arrow-body-style': ['off'],
+    'object-shorthand': ['off'],
     'react/jsx-no-bind': ['off'],
     'react/jsx-curly-spacing': [2, 'always'],
-    'object-shorthand': ['off'],
+    'react/no-multi-comp': ['off']
   },
 };
