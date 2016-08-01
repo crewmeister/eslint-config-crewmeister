@@ -1,6 +1,10 @@
 module.exports = {
+  extends: [
+    './rules/base',
+    './rules/strict',
+    './rules/react',
+  ].map(require.resolve),
   parser: 'babel-eslint',
-  extends: 'airbnb',
   globals: {
     before: true,
     beforeEach: true,
