@@ -10,6 +10,7 @@ module.exports = {
     './rules/style',
     './rules/variables',
     './rules/testing',
+    './rules/modules',
   ].map(require.resolve),
   parser: 'babel-eslint',
   rules: {},
