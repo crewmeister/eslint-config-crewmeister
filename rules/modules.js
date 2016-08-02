@@ -61,12 +61,9 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md
     'import/no-deprecated': 0,
 
-    // Forbid the use of extraneous packages
+    // Allow the use of extraneous packages
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
-    'import/no-extraneous-dependencies': [2, {
-      devDependencies: false,
-      optionalDependencies: false,
-    }],
+    'import/no-extraneous-dependencies': 0,
 
     // Forbid mutable exports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md
