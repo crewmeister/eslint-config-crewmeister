@@ -6,5 +6,7 @@ module.exports = {
     afterEach: true,
     describe: true,
     it: true,
+    xdescribe: true,
+    xit: true,
   },
 };
