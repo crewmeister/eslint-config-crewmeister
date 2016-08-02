@@ -1,5 +1,6 @@
-# 2.2.0 (2016-07-29)
+# 2.2.0 (2016-08-02)
 - Remove eslint-config-airbnb as a dependency, because they keep changing rules a lot.
+- Add eslint-plugin-import to lint common import/export errors.
 
 # 2.1.0 (2016-07-29)
 
