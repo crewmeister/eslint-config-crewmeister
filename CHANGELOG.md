@@ -1,3 +1,6 @@
+# 2.2.0 (2016-07-29)
+- Remove eslint-config-airbnb as a dependency, because they keep changing rules a lot.
+
 # 2.1.0 (2016-07-29)
 
 - Turn the `arrow-body-style` rule off, so we are completely free in how we use it.
