@@ -4,16 +4,21 @@ module.exports = {
   },
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: [
-    'import'
+    'import',
   ],
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.json']
-      }
+        extensions: [
+          '.js',
+          '.json',
+          '.android.js',
+          '.ios.js',
+        ],
+      },
     },
     'import/extensions': [
       'node_modules',
