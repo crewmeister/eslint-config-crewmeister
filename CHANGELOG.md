@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Allow vars to be used before definition, that's just how JS ticks. [\#4](https://github.com/crewmeister/eslint-config-crewmeister/pull/4) ([wolframkriesing](https://github.com/wolframkriesing))
 - Generate changelog.md automatically. [\#3](https://github.com/crewmeister/eslint-config-crewmeister/pull/3) ([webPapaya](https://github.com/webPapaya))
 
 ## [v2.2.0](https://github.com/crewmeister/eslint-config-crewmeister/tree/v2.2.0) (2016-08-02)
