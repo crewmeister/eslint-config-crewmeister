@@ -29,10 +29,12 @@
     "url": "https://github.com/crewmeister/eslint-config-crewmeister/issues"
   },
   "homepage": "https://github.com/crewmeister/eslint-config-crewmeister#readme",
-  "dependencies": {
-    "babel-eslint": "^4.1.8",
-    "eslint": "^1.10.3",
-    "eslint-plugin-import": "^1.12.0",
-    "eslint-plugin-react": "^3.16.1"
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.4.0",
+    "eslint-plugin-flowtype": "^2.15.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-react": "^6.2.0"
   }
 }
