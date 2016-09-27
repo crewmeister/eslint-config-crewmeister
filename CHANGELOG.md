@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Specify eslint as peer dependency. [\#7](https://github.com/crewmeister/eslint-config-crewmeister/pull/7) ([webPapaya](https://github.com/webPapaya))
 - Add browser app globals and don't enforce consistent return [\#6](https://github.com/crewmeister/eslint-config-crewmeister/pull/6) ([webPapaya](https://github.com/webPapaya))
 - Upgrade eslint and add flowtype. [\#5](https://github.com/crewmeister/eslint-config-crewmeister/pull/5) ([wolframkriesing](https://github.com/wolframkriesing))
 - Allow vars to be used before definition, that's just how JS ticks. [\#4](https://github.com/crewmeister/eslint-config-crewmeister/pull/4) ([wolframkriesing](https://github.com/wolframkriesing))
