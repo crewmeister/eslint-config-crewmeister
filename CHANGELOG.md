@@ -1,15 +1,42 @@
 # Change Log
 
-## [Unreleased](https://github.com/crewmeister/eslint-config-crewmeister/tree/HEAD)
+## [v2.5.2](https://github.com/crewmeister/eslint-config-crewmeister/tree/v2.5.2) (2016-09-27)
+[Full Changelog](https://github.com/crewmeister/eslint-config-crewmeister/compare/v2.5.1...v2.5.2)
 
-[Full Changelog](https://github.com/crewmeister/eslint-config-crewmeister/compare/v2.2.0...HEAD)
+**Merged pull requests:**
+
+- Use dependencies instead of peerDependencies. [\#8](https://github.com/crewmeister/eslint-config-crewmeister/pull/8) ([webPapaya](https://github.com/webPapaya))
+
+## [v2.5.1](https://github.com/crewmeister/eslint-config-crewmeister/tree/v2.5.1) (2016-09-27)
+[Full Changelog](https://github.com/crewmeister/eslint-config-crewmeister/compare/v2.5.0...v2.5.1)
 
 **Merged pull requests:**
 
 - Specify eslint as peer dependency. [\#7](https://github.com/crewmeister/eslint-config-crewmeister/pull/7) ([webPapaya](https://github.com/webPapaya))
+
+## [v2.5.0](https://github.com/crewmeister/eslint-config-crewmeister/tree/v2.5.0) (2016-09-27)
+[Full Changelog](https://github.com/crewmeister/eslint-config-crewmeister/compare/v2.4.0...v2.5.0)
+
+## [v2.4.0](https://github.com/crewmeister/eslint-config-crewmeister/tree/v2.4.0) (2016-09-27)
+[Full Changelog](https://github.com/crewmeister/eslint-config-crewmeister/compare/v2.3.0...v2.4.0)
+
+**Merged pull requests:**
+
 - Add browser app globals and don't enforce consistent return [\#6](https://github.com/crewmeister/eslint-config-crewmeister/pull/6) ([webPapaya](https://github.com/webPapaya))
 - Upgrade eslint and add flowtype. [\#5](https://github.com/crewmeister/eslint-config-crewmeister/pull/5) ([wolframkriesing](https://github.com/wolframkriesing))
+
+## [v2.3.0](https://github.com/crewmeister/eslint-config-crewmeister/tree/v2.3.0) (2016-08-09)
+[Full Changelog](https://github.com/crewmeister/eslint-config-crewmeister/compare/v2.2.1...v2.3.0)
+
+**Merged pull requests:**
+
 - Allow vars to be used before definition, that's just how JS ticks. [\#4](https://github.com/crewmeister/eslint-config-crewmeister/pull/4) ([wolframkriesing](https://github.com/wolframkriesing))
+
+## [v2.2.1](https://github.com/crewmeister/eslint-config-crewmeister/tree/v2.2.1) (2016-08-02)
+[Full Changelog](https://github.com/crewmeister/eslint-config-crewmeister/compare/v2.2.0...v2.2.1)
+
+**Merged pull requests:**
+
 - Generate changelog.md automatically. [\#3](https://github.com/crewmeister/eslint-config-crewmeister/pull/3) ([webPapaya](https://github.com/webPapaya))
 
 ## [v2.2.0](https://github.com/crewmeister/eslint-config-crewmeister/tree/v2.2.0) (2016-08-02)
