@@ -1,5 +1,9 @@
 module.exports = {
   globals: {
+    global: true,
+    window: true,
+    Ember: true,
+
     before: true,
     beforeEach: true,
     after: true,

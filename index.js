@@ -9,7 +9,7 @@ module.exports = {
     './rules/strict',
     './rules/style',
     './rules/variables',
-    './rules/testing',
+    './rules/globals',
     './rules/modules',
     './rules/flow',
   ].map(require.resolve),
