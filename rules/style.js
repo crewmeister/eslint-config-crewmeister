@@ -37,7 +37,7 @@ module.exports = {
     'linebreak-style': 0,
     // specify the maximum length of a line in your program
     // https://github.com/eslint/eslint/blob/master/docs/rules/max-len.md
-    'max-len': [2, 120, 2, {
+    'max-len': [2, 100, 2, {
       'ignoreUrls': true,
       'ignoreComments': false
     }],
