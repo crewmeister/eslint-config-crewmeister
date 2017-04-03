@@ -12,6 +12,7 @@ module.exports = {
     './rules/globals',
     './rules/modules',
     './rules/flow',
+    './rules/tests',
   ].map(require.resolve),
   parser: 'babel-eslint',
   rules: {},
