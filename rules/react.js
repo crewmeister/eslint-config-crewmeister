@@ -126,5 +126,10 @@ module.exports = {
       assignment: true,
       return: true
     }],
+    'no-restricted-properties': [2, {
+      object: 'React',
+      property: 'PropTypes',
+      message: 'Please use prop-types package'
+    }]
   }
 };
