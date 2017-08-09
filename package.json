@@ -31,10 +31,10 @@
   "homepage": "https://github.com/crewmeister/eslint-config-crewmeister#readme",
   "dependencies": {
     "babel-eslint": "^7.2.2",
-    "eslint": "^3.19.0",
+    "eslint": "^4.4.1",
     "eslint-plugin-flowtype": "^2.32.1",
-    "eslint-plugin-import": "^1.16.0",
-    "eslint-plugin-no-only-tests": "^1.1.0",
-    "eslint-plugin-react": "^6.10.3"
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-no-only-tests": "^2.0.0",
+    "eslint-plugin-react": "^7.1.0"
   }
 }
