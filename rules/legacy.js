@@ -6,8 +6,6 @@ module.exports = {
     'max-params': [0, 3],
     // specify the maximum number of statement allowed in a function
     'max-statements': [0, 10],
-    // disallow use of bitwise operators
-    'no-bitwise': 0,
     // disallow use of unary operators, ++ and --
     'no-plusplus': 0
   }
