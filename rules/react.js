@@ -48,7 +48,7 @@ module.exports = {
     'react/jsx-no-literals': 0,
     // Disallow undeclared variables in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
-    'react/jsx-no-undef': 2,
+    'react/jsx-no-undef': [2, { allowGlobals: true }],
     // Enforce PascalCase for user-defined JSX components
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
     'react/jsx-pascal-case': 0,
