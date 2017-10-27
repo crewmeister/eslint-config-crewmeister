@@ -4,9 +4,6 @@ module.exports = {
     'jsx-control-statements'
   ],
   'extends': ['plugin:jsx-control-statements/recommended'],
-  'env': {
-    'jsx-control-statements/jsx-control-statements': true
-  },
   // View link below for react rules documentation
   // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
   'rules': {
@@ -51,7 +48,7 @@ module.exports = {
     'react/jsx-no-literals': 0,
     // Disallow undeclared variables in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
-    'react/jsx-no-undef': 2,
+    "react/jsx-no-undef": [2, { "allowGlobals": true }],
     // Enforce PascalCase for user-defined JSX components
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
     'react/jsx-pascal-case': 2,
@@ -132,6 +129,7 @@ module.exports = {
       object: 'React',
       property: 'PropTypes',
       message: 'Please use prop-types package'
-    }]
+    }],
+
   }
 };
