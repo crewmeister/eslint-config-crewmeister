@@ -29,7 +29,7 @@
     "url": "https://github.com/crewmeister/eslint-config-crewmeister/issues"
   },
   "homepage": "https://github.com/crewmeister/eslint-config-crewmeister#readme",
-  "peerDependencies": {
+  "dependencies": {
     "babel-eslint": "^8.0.1",
     "eslint": "^4.9.0",
     "eslint-plugin-flowtype": "^2.39.1",
