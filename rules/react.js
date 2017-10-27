@@ -3,7 +3,7 @@ module.exports = {
     'react',
     'jsx-control-statements'
   ],
-  'extends': ['plugin:jsx-control-statements/recommended'],
+  'extends': ['plugin:jsx-control-statements/recommended'],  
   // View link below for react rules documentation
   // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
   'rules': {
@@ -129,7 +129,6 @@ module.exports = {
       object: 'React',
       property: 'PropTypes',
       message: 'Please use prop-types package'
-    }],
-
+    }]
   }
 };

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-crewmeister",
-  "version": "3.6.7",
+  "version": "3.6.8",
   "description": "The eslint config we use at crewmeister.",
   "main": "index.js",
   "bin": {
@@ -29,12 +29,13 @@
     "url": "https://github.com/crewmeister/eslint-config-crewmeister/issues"
   },
   "homepage": "https://github.com/crewmeister/eslint-config-crewmeister#readme",
-  "peerDependencies": {
-    "eslint": "^4.9.0",
-    "eslint-plugin-flowtype": "^2.39.1",
-    "eslint-plugin-import": "^2.8.0",
+  "dependencies": {
+    "babel-eslint": "^7.2.2",
+    "eslint": "^4.4.1",
+    "eslint-plugin-flowtype": "^2.32.1",
+    "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-no-only-tests": "^2.0.0",
-    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-react": "^7.1.0",
     "eslint-plugin-jsx-control-statements": "^2.2.0"
   }
 }
