@@ -23,7 +23,7 @@
     "styleguide",
     "coding style"
   ],
-  "author": "Wolfram Kriesing <wolfram@crewmeister.com>",
+  "author": "Crewmeister Devs <dev@crewmeister.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/crewmeister/eslint-config-crewmeister/issues"
