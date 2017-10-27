@@ -3,7 +3,10 @@ module.exports = {
     'react',
     'jsx-control-statements'
   ],
-  'extends': ['plugin:jsx-control-statements/recommended'],  
+  'extends': ['plugin:jsx-control-statements/recommended'],
+  'env': {
+    'jsx-control-statements/jsx-control-statements': true
+  },
   // View link below for react rules documentation
   // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
   'rules': {
