@@ -14,6 +14,5 @@ module.exports = {
     './rules/flow',
     './rules/tests',
   ].map(require.resolve),
-  parser: 'babel-eslint',
   rules: {},
 };
