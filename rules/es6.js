@@ -7,7 +7,7 @@ module.exports = {
     // http://eslint.org/docs/rules/arrow-body-style
     'arrow-body-style': 0,
     // require parens in arrow function arguments
-    'arrow-parens': 0,
+    'arrow-parens': [2, 'always'],
     // require space before/after arrow function's arrow
     // https://github.com/eslint/eslint/blob/master/docs/rules/arrow-spacing.md
     'arrow-spacing': [2, { 'before': true, 'after': true }],

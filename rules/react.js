@@ -21,7 +21,7 @@ module.exports = {
     'react/jsx-closing-bracket-location': [2, 'line-aligned'],
     // Enforce or disallow spaces inside of curly braces in JSX attributes
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
-    'react/jsx-curly-spacing': [0, 'never', { 'allowMultiline': true }],
+    'react/jsx-curly-spacing': [2, 'always', { 'allowMultiline': true, 'spacing': {'objectLiterals': 'never'} }],
     // Enforce event handler naming conventions in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
     'react/jsx-handler-names': [0, {
@@ -42,7 +42,7 @@ module.exports = {
     'react/jsx-no-bind': 0,
     // Prevent duplicate props in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
-    'react/jsx-no-duplicate-props': [0, { 'ignoreCase': false }],
+    'react/jsx-no-duplicate-props': [2, { 'ignoreCase': false }],
     // Prevent usage of unwrapped JSX strings
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
     'react/jsx-no-literals': 0,
@@ -51,7 +51,7 @@ module.exports = {
     'react/jsx-no-undef': 2,
     // Enforce PascalCase for user-defined JSX components
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
-    'react/jsx-pascal-case': 0,
+    'react/jsx-pascal-case': 2,
     // Enforce propTypes declarations alphabetical sorting
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-prop-types.md
     'react/jsx-sort-prop-types': [0, {
